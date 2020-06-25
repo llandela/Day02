@@ -6,7 +6,7 @@
 /*   By: llandela <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 12:01:59 by llandela          #+#    #+#             */
-/*   Updated: 2020/06/19 16:22:44 by llandela         ###   ########.fr       */
+/*   Updated: 2020/06/25 15:21:07 by llandela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_print_alphabet()
 {
 	char i;
 	i = 'a';
-	while (i >= 'z')
+	while (i <= 'z')
 	{
 		ft_putchar(i);
 		i++;
